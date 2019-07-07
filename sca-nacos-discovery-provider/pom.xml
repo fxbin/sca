@@ -9,7 +9,7 @@
     </parent>
 
     <artifactId>sca-nacos-discovery-provider</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0</version>
     <name>sca-nacos-discovery-provider</name>
     <description>Spring Cloud Alibaba Nacos Discovery Provider Service Project</description>
 

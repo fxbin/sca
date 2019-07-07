@@ -35,6 +35,7 @@
         <module>sca-nacos-discovery-provider</module>
         <!-- nacos 服务消费者 -->
         <module>sca-nacos-discovery-consumer</module>
+        <module>sca-nacos-discovery-consumer-resttemplate</module>
     </modules>
 
     <dependencies>

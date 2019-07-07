@@ -9,14 +9,10 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>sca-nacos-discovery-consumer</artifactId>
+    <artifactId>sca-nacos-discovery-consumer-resttemplate</artifactId>
     <version>1.0</version>
-    <name>sca-nacos-discovery-consumer</name>
-    <description>Spring Cloud Alibaba Nacos Discovery Consumer Service Project</description>
-
-    <properties>
-        <java.version>1.8</java.version>
-    </properties>
+    <name>sca-nacos-discovery-consumer-resttemplate</name>
+    <description>Spring Cloud Alibaba Nacos Discovery Consumer RestTemplate Service Project</description>
 
     <dependencies>
         <dependency>
