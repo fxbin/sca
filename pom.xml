@@ -35,8 +35,12 @@
         <module>sca-nacos-discovery-provider</module>
         <!-- nacos 服务消费者 -->
         <module>sca-nacos-discovery-consumer</module>
+        <!-- nacos RestTemplate服务消费者 -->
         <module>sca-nacos-discovery-consumer-resttemplate</module>
+        <!--nacos feign 服务消费者-->
         <module>sca-nacos-discovery-consumer-feign</module>
+        <!-- nacos config 客户端 -->
+        <module>sca-nacos-config-client</module>
     </modules>
 
     <dependencies>
