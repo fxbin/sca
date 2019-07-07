@@ -2,20 +2,20 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>cn.fxbin.learn</groupId>
         <artifactId>sca</artifactId>
         <version>1.0</version>
     </parent>
-    <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>sca-nacos-discovery-consumer-resttemplate</artifactId>
+    <artifactId>sca-nacos-discovery-consumer-feign</artifactId>
     <version>1.0</version>
-    <name>sca-nacos-discovery-consumer-resttemplate</name>
-    <description>Spring Cloud Alibaba Nacos Discovery Consumer RestTemplate Service Project</description>
+    <name>sca-nacos-discovery-consumer-feign</name>
+    <description>Spring Cloud Alibaba Nacos Discovery Consumer Feign Service Project</description>
 
     <dependencies>
-        <!-- spring boot web -->
+        <!-- spring-boot web -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
@@ -25,6 +25,12 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+        </dependency>
+
+        <!-- openfeign -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
         </dependency>
     </dependencies>
 

@@ -1,5 +1,6 @@
 package cn.fxbin.learn.sca.nacos.provider;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
@@ -17,9 +18,13 @@ public class ScaNacosDiscoveryProviderApplication {
 
     @RestController
     public class EchoController {
+
+        @Value("${server.port}")
+        private String port;
+
         @GetMapping(value = "/echo/{message}")
         public String echo(@PathVariable String message) {
-            return "Hello Nacos Discovery Provider : " + message;
+            return "Hello Nacos Discovery Provider : " + message + ", port :" + port;
         }
     }
 
