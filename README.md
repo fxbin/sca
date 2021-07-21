@@ -1,2 +1,2 @@
-# spring-cloug-alibaba-example
+# spring-cloud-alibaba-example
 Spring Cloud Alibaba Learn Example
